@@ -3,8 +3,8 @@
 ############################################
 
 set :stage, :staging
-set :stage_url, "http://www.example.com"
-server "XXX.XXX.XX.XXX", user: "SSHUSER", roles: %w{web app db}
+set :stage_url, "http://www.alexchavet.com/BenHainesRedesign“
+server "185.62.238.252", user: "alexchav", roles: %w{web app db}
 set :deploy_to, "/deploy/to/path"
 
 ############################################
